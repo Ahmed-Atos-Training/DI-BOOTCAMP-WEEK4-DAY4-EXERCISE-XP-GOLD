@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Exercise3';
+
+  location = {
+    address: "BP 03 Babi"
+  }
+
+  submitForm(value: any) {
+    console.log( value )
+  }
 }
